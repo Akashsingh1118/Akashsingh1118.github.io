@@ -146,12 +146,6 @@ footer {
         display: flex;
         justify-content: center;
     }
-    /*
-    .job-item {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 20px;
-    } */
 }
 @media screen and (max-width: 749px){
     h1 {
