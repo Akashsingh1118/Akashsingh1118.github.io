@@ -61,12 +61,14 @@ h3 {
 
 header {
   background: #2f3061;
-  color: #f7fff7;
+  color: #ffffff;
 }
 
 .projects {
-  background: #beacac;
-  border-bottom: 2px solid #010002;
+  background: #2910b428;
+  /* background-size: cover;
+  background-position: top right; */
+  /* border-bottom: 2px solid #010002; */
 }
 .projects a {
   color: #2f3061;
@@ -91,43 +93,69 @@ header {
 .project-item h3 {
   margin-top: 0;
 }
-
 .code {
-  /* background: #d3d3d3; */
-  background-image: url(../images/coding_img2.avif);
-  border-bottom: 2px solid #010002;
+  background: #363945
 }
-
 .code_format {
-  color: #dbcf1c;
+  padding-bottom: 10px;
+  color: white;
 }
-.coding-links {
-  color: rgb(255, 255, 255);
+table {
+  width: 90%;
+  border-collapse: collapse;
+	border: 1px solid black;
+	vertical-align: middle;
 }
-.coding-links a {
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  font-family: cursive;
+th, td {
+  border: 1px solid black;
+  padding: 8px;
 }
-
+thead th {
+  width: 25%;
+}
+thead {
+  background-color: #333;
+  color: white;
+  font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+tbody tr:nth-child(even) {
+  background-color: #eeeeeeb2;
+}
+tbody th {
+  background-color: #36c;
+}
+tbody tr:nth-child(even) th {
+  background-color: #25c;
+}
+.table-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.rating {
+  text-align: center;
+}
 .education {
-  background-image: url(../images/education4.jpg);
-  background-size: cover;
+  /* background-image: url(../images/education4.jpg); */
+  /* background-size: cover; */
   /* background-position: top right; */
-  padding-bottom: 100px;
-  border-bottom: 2px solid #010002;
+  background-color: #2f3061;
+  padding-bottom: 50px;
 }
 .education p {
   width: 60%;
 }
 .item-details {
-  color: white;
+  color: rgb(240, 237, 237);
 }
 
 footer {
   background: #343434;
   color: #f7fff7;
-  /* margin-top: 0.4px; */
 }
 .contact-list {
   list-style-type: none;
