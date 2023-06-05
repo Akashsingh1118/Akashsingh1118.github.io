@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  
 }
 *,
 *:before,
@@ -61,14 +62,20 @@ h3 {
 
 header {
   background: #2f3061;
-  color: #ffffff;
+  color: white;
 }
 
 .projects {
-  background: #2910b428;
+  /* background: #2910b428; */
   /* background-size: cover;
   background-position: top right; */
   /* border-bottom: 2px solid #010002; */
+  background:
+      linear-gradient( white, transparent),
+      linear-gradient(to top left, red, transparent),
+      linear-gradient(to top right, yellow, transparent);
+  background-blend-mode: screen;
+  color: black;
 }
 .projects a {
   color: #2f3061;
@@ -143,8 +150,11 @@ tbody tr:nth-child(even) th {
   /* background-image: url(../images/education4.jpg); */
   /* background-size: cover; */
   /* background-position: top right; */
-  background-color: #2f3061;
+  background-color: #077b8a;
   padding-bottom: 50px;
+}
+.edu-item {
+  padding-bottom: 10px;
 }
 .education p {
   width: 60%;
