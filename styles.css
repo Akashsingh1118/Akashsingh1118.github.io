@@ -133,8 +133,6 @@ header {
   color: black;
 }
 
-
-
 body .container {
   display: flex;
   justify-content: center;
@@ -243,11 +241,6 @@ body .container .card .box .content a:hover {
 }
 
 .education {
-  /* background-image: url(../images/education4.jpg); */
-  /* background-size: cover; */
-  /* background-position: top right; */
-  /* background-color: #8AAAE5; */
-  /* background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%); */
   padding-bottom: 50px;
 }
 .edu-item {
