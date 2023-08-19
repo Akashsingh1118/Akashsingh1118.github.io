@@ -1,43 +1,9 @@
 html {
   box-sizing: border-box;
-  background-color: rgb(215, 224, 210);
-}
-.bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(205, 226, 217) 50%,rgb(222, 224, 210) 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
+  background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
 }
 
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:5s;
-}
-
-.bg3 {
-  animation-duration:5s;
-}
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 body {
-  color: #343434;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
@@ -48,7 +14,7 @@ img {
   width: 230px;
 }
 a {
-  color: #ffe66d;
+  color: white;
 }
 a:hover {
   text-decoration: none;
@@ -90,26 +56,27 @@ h3 {
 }
 
 header {
-  background: #2f3061;
+  background: #101820;
   color: white;
 }
 
 .projects {
-  color: black;
+  color: white;
 }
 .projects a {
-  color: #2f3061;
+  color: white;
 }
 .projects .btn {
   color: #f7fff7;
-  background: #2f3061;
+  background: #2196f3;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgb(255, 255, 255);
+  color : black;
 }
 .project-item {
   overflow: hidden;
@@ -123,14 +90,7 @@ header {
 
 .code_format {
   padding-bottom: 10px;
-  color:black;
-}
-.heading-code {
-  max-width: 800px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 15px 0;
-  color: black;
+  color: white;
 }
 
 body .container {
@@ -145,9 +105,9 @@ body .container .card {
   position: relative;
   min-width: 250px;
   height: 350px;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
-    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 5px 5px 5px rgba(255, 8, 8, 0.2),
+    inset -5px -5px 15px rgba(253, 51, 51, 0.1),
+    5px 5px 15px rgba(236, 46, 46, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   margin: 20px;
   transition: 0.5s;
@@ -156,29 +116,28 @@ body .container .card {
 body .container .card:nth-child(1) .box .content a {
   background: #2196f3;
 }
-
 body .container .card:nth-child(2) .box .content a {
-  background: #23c186;
+  background: #2196f3;
 }
-
 body .container .card:nth-child(3) .box .content a {
   background: #2196f3;
 }
 body .container .card:nth-child(4) .box .content a {
-  background: #23c186;
+  background: #2196f3;
 }
+
 body .container .card .box {
   position: absolute;
   top: 20px;
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #090a0a;
+  background: rgb(61, 59, 59);
   border-radius: 15px;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: 0.5s;
 }
 
@@ -206,7 +165,8 @@ body .container .card .box .content h2 {
   top: -10px;
   right: 30px;
   font-size: 8rem;
-  color: rgba(255, 255, 255, 0.1);
+  /* color: rgba(255, 255, 255, 0.1); */
+  color : white;
 }
 
 body .container .card .box .content h3 {
@@ -250,12 +210,12 @@ body .container .card .box .content a:hover {
   width: 60%;
 }
 .item-details {
-  color: rgb(10, 0, 0);
+  color: white;
 }
 
 footer {
-  background: #2f3061;
-  color: #f7fff7;
+  background: #101820;
+  color: white;
 }
 .contact-list {
   list-style-type: none;
